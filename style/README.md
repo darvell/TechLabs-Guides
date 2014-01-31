@@ -216,11 +216,11 @@ Testing
 * Prefer `eq` to `==` in RSpec.
 * Separate setup, exercise, verification, and teardown phases with newlines.
 * Use RSpec's [`expect` syntax].
-* Use `it { should ... }` shorthand syntax when using [shoulda-matchers]
+* Use `should` shorthand for [one-liners with an implicit subject].
 * Use `not_to` instead of `to_not` in RSpec expectations.
 
 [`expect` syntax]: http://myronmars.to/n/dev-blog/2012/06/rspecs-new-expectation-syntax
-[shoulda-matchers]: https://github.com/thoughtbot/shoulda-matchers
+[one-liners with an implicit subject]: https://github.com/rspec/rspec-expectations/blob/master/Should.md#one-liners
 
 #### Acceptance Tests
 
