@@ -36,8 +36,6 @@ Credits
 
 Adapted from thoughtbot's guides. Much thanks guys!
 
-Thank you, [contributors](https://github.com/thoughtbot/guides/graphs/contributors)!
-
 License
 -------
 
