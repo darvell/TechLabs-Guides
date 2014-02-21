@@ -1,4 +1,4 @@
-Guides
+Guides or How to Keep a Beautiful Code Garden
 ======
 
 Guides for getting things done, programming well, and programming in style.
@@ -13,8 +13,9 @@ A note on the language:
 * "Prefer" indicates a better option and its alternative to watch out for.
 * "Use" is a positive instruction.
 
-TechLabs Code Philosophy:
+TechLabs Code Philosophy Overview:
 
+* We follow Sandi Metz' rules for [development and testing](/sandi-metz-rules)
 * Test come first: They're written first and they're refactored first.
 * Bugs are not fixed until tests are written to prevent it from happening again.
 * Test the happy and sad paths for every user story.
