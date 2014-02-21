@@ -3,10 +3,8 @@ Guides
 
 Guides for getting things done, programming well, and programming in style.
 
-* [Protocol](/protocol)
 * [Code Review](/code-review)
 * [Best Practices](/best-practices)
-* [Style](/style)
 
 A note on the language:
 
