@@ -12,7 +12,14 @@ Sandi Metz’ rules for developers
 Sandi Metz' rules of testing
 ======
 
-1. Make assertions about state for incoming messages.
-2. Make assertions that you send outgoing messages. [Only do #2 for outgoing /command/ messages.  Don't bother testing query methods at all, though you may need to stub those to make your tests work right.]
-3. Ignore private methods.
-4. Test roles. Make tests prove they are playing the correct role (and not just testing the mock / double)
+Good testing is about following messages between objects. From an object's point of view, messages originate from one of 3 places: received from others, sent to others, or sent to self (private messages).
+
+Messages come in two types: queries and commands. 
+
+Here's how you test each case
+
+* Incomming Query Messages: make assetions about what they send back.
+* Incomming Command Messages: assert direct public side effect
+* Private Messages: Don't test them
+* Outgoing Query Messages: Don't test them
+* Outgoing Command Messages: Expect to send outgoing command message
