@@ -5,6 +5,7 @@ Guides for getting things done, programming well, and programming in style.
 
 * [Code Review](/code-review)
 * [Best Practices](/best-practices)
+* [Sandi Metz' Rules](/sandi-metz-rules)
 
 A note on the language:
 
